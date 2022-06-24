@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>beep</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="HandheldFriendly" content="true">
+  <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon.png">
+  <link rel="stylesheet" href="index.css">
+  <link rel="icon" href="favicon.ico" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://kit.fontawesome.com/21ee937178.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+  <!--   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css"> -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+</head>
+
+<body>
+
+  <div class='heroEffects' id="home">
+    <div class="bg">
+      <div class="title centerV">
+        <div>
+          <div class="text">
+            <h1 style="font-size: 65px">This is stuff</h1>
+            <Br>
+            <p style="font-size: 43px;">nothing gets done</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="shade"></div>
+  </div>
+
+  <div class="topnav" id="myTopnav">
+    <!--
+      <a href="index.html" class="logo"><img src="logo.png" class="logo"></a>
+      -->
+    <a href="#home" class="navlink item1">Home</a>
+    <a href="#about" class="navlink">About</a>
+    <a href="#" class="navlink">Gallery</a>
+    <a href="#contact" class="navlink" onclick="openContact()">Contact</a>
+
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+  </div>
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+  </script>
+
+  <div id="about" class="light-mode">
+    <div id="container" class='content'>
+
+      <br>
+      <br>
+      <br>
+      <h1 data-aos="fade-up" data-aos-delay="350" style="text-align: center; font-size: 45px;">Cool line 1.</h1>
+      <br>
+      <br>
+      <br>
+      <br>
+      <p data-aos="fade-right" data-aos-delay="500" style="text-align: center; font-size: 23px;">Super cool line 2.</p>
+      <br>
+      <br>
+      <p data-aos="fade-left" data-aos-delay="500" style="text-align: center; font-size: 23px;">Even cooler line 3</p>
+      <br>
+      <br>
+      <p data-aos="fade-right" data-aos-delay="500" style="text-align: center; font-size: 23px;">Welcome to my professional website :D</p>
+      <br>
+      <br>
+      <br>
+      <p data-aos="fade-down" data-aos-delay="600" style="text-align: center; font-size: 25px;">Thanks!</p>
+      <br>
+      <br>
+      <div class="poop" style="text-align: center;">
+        <i data-aos="zoom-in" data-aos-delay="600" class="fas fa-poo-storm" style="text-align: center;"></i>
+      </div>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+
+      <div class="btn-darkmode-toggle">
+        <i class="fas fa-adjust fa-1x" aria-hidden="true" style="transform: translateY(0px); font-size: 40px;"></i>
+      </div>
+    </div>
+
+  </div>
+
+
+  <!--MODAL CONTACT-->
+  <div id="modal-contact" class="overlay">
+    <a href="#home" class="closebtn" onclick="closeContact()">&times;</a>
+    <div class="overlay-content">
+      <h1 style="text-align: center; font-size: 45px;"><u>Contact</u></h1>
+      <br>
+      <br>
+      <br>
+      <div class="contact-icons">
+      <a href="mailto:bob@bob.com" target="_blank" class="contact-icons">
+        <i class="far fa-envelope"></i>
+      </a>
+      </div>
+      <br>
+      <br>
+      <div class="contact-icons">
+      <a href="https://github.com/jrdoodlebug" target="_blank" class="contact-icons">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+      <br>
+
+      <!--<div class="typeform-widget" data-url="https://form.typeform.com/to/MLJCnQjs?typeform-medium=embed-snippet"
+        data-transparency="100" data-hide-headers="true" data-hide-footer="true" style="width: 100%; height: 500px;">
+      </div>
+      <script>
+        (function () {
+          var qs, js, q, s, d = document,
+            gi = d.getElementById,
+            ce = d.createElement,
+            gt = d.getElementsByTagName,
+            id = "typef_orm",
+            b = "https://embed.typeform.com/";
+          if (!gi.call(d, id)) {
+            js = ce.call(d, "script");
+            js.id = id;
+            js.src = b + "embed.js";
+            q = gt.call(d, "script")[0];
+            q.parentNode.insertBefore(js, q)
+          }
+        })()
+      </script> -->
+      </a>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+    </div>
+  </div>
+
+  <!--
+      </div>
+      -->
+
+
+  </div>
+
+
+  </div>
+
+
+
+
+
+  <!--
+  OPENING MODALS
+-->
+  <script>
+
+    function closeArt() {
+      document.getElementById("art-gallery").style.width = "0%";
+    }
+  </script>
+  <script>
+    function openContact() {
+      document.getElementById("modal-contact").style.width = "100%";
+    }
+
+    function closeContact() {
+      document.getElementById("modal-contact").style.width = "0%";
+    }
+  </script>
+
+
+
+
+  <!--
+  OTHER SCRIPTS
+-->
+  <script>
+    (function () {
+      $(window).scroll(function () {
+        var Num = $(window).scrollTop() / 500;
+        var Num2 = $(window).scrollTop() * .0004; // higher number for more zoom
+        var Num2mod = Num2 + 1;
+        var Num3 = $(window).scrollTop() * .2; // Title speed
+        var Num3mod = Num3 + 1;
+        return $('.shade').css('opacity', Num),
+          $(".bg").css({
+            "transform": "scale(" + Num2mod + ")"
+          }),
+          $(".text").css({
+            "margin-top": "-" + Num3mod + "px"
+          });
+      });
+    }.call(this));
+  </script>
+
+  <!--
+  DARKMODE SCRIPT
+-->
+
+  <script>
+    const button = document.querySelector(".btn-darkmode-toggle");
+
+    button.addEventListener("click", toggleDarkMode);
+
+    function toggleDarkMode() {
+      const container = document.getElementById("about");
+      if (container.classList.contains("light-mode")) {
+        container.classList.remove("light-mode");
+        container.classList.add("dark-mode");
+      } else {
+        container.classList.remove("dark-mode");
+        container.classList.add("light-mode");
+      }
+    }
+  </script>
+
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>
